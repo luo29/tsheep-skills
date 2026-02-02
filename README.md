@@ -23,8 +23,23 @@ A collection of Claude Code agent skills for various development tasks.
 Install a specific skill using npx (no installation required):
 
 ```bash
+# Global install to ~/.claude/skills (default)
 npx tsheep-skills add ab-experiment-cleanup
+
+# Project-local install to ./.claude/skills
+npx tsheep-skills add ab-experiment-cleanup --local
+
+# Install to .cursor directory instead of .claude
+npx tsheep-skills add ab-experiment-cleanup --cursor
+
+# Project-local install to ./.cursor/skills
+npx tsheep-skills add ab-experiment-cleanup --local --cursor
 ```
+
+**Installation Options:**
+- `-l, --local`: Install to project-local directory (`./.claude/skills` or `./.cursor/skills`)
+- `-c, --cursor`: Use `.cursor` directory instead of `.claude`
+- `-g, --global`: Install to global directory (default: `~/.claude/skills`)
 
 List all available skills:
 

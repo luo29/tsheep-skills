@@ -8,7 +8,30 @@ The skill has been successfully uploaded and is now available for installation.
 
 ## Installation Methods
 
-### Method 1: One-Click Install (Recommended)
+### Method 1: NPX Install (Recommended) 🚀
+
+Install using npx without any prior setup:
+
+```bash
+# Global install to ~/.claude/skills (default)
+npx tsheep-skills add ab-experiment-cleanup
+
+# Project-local install to ./.claude/skills
+npx tsheep-skills add ab-experiment-cleanup --local
+
+# Install to .cursor directory instead of .claude
+npx tsheep-skills add ab-experiment-cleanup --cursor
+
+# Project-local install to ./.cursor/skills
+npx tsheep-skills add ab-experiment-cleanup --local --cursor
+```
+
+**Installation Options:**
+- `-l, --local`: Install to project-local directory (`./.claude/skills` or `./.cursor/skills`)
+- `-c, --cursor`: Use `.cursor` directory instead of `.claude`
+- `-g, --global`: Install to global directory (default: `~/.claude/skills`)
+
+### Method 2: Claude Code CLI
 
 Use the Claude Code CLI to install the skill directly:
 
@@ -16,7 +39,7 @@ Use the Claude Code CLI to install the skill directly:
 claude skill install https://github.com/luo29/tsheep-skills.git/ab-experiment-cleanup
 ```
 
-### Method 2: Manual Install via Git Clone
+### Method 3: Manual Install via Git Clone
 
 1. Clone the repository:
 ```bash
@@ -30,7 +53,7 @@ ln -s $(pwd)/tsheep-skills/ab-experiment-cleanup ~/.claude/skills/ab-experiment-
 
 3. Restart Claude Code or reload skills
 
-### Method 3: Direct Download
+### Method 4: Direct Download
 
 1. Download the skill directory from GitHub
 2. Copy it to your Claude skills directory:
