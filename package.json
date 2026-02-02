@@ -1,0 +1,30 @@
+{
+  "name": "tsheep-skills",
+  "version": "1.0.0",
+  "description": "A collection of Claude Code agent skills",
+  "main": "index.js",
+  "bin": {
+    "tsheep-skills": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "agent",
+    "ab-testing",
+    "experiment"
+  ],
+  "author": "tsheep",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luo29/tsheep-skills.git"
+  },
+  "homepage": "https://github.com/luo29/tsheep-skills#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

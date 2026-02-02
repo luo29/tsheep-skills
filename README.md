@@ -18,15 +18,29 @@ A collection of Claude Code agent skills for various development tasks.
 
 ## Installation
 
-### Method 1: One-Click Install (Recommended)
+### Method 1: NPX Install (Recommended) 🚀
 
-Install a specific skill using the Claude Code CLI:
+Install a specific skill using npx (no installation required):
+
+```bash
+npx tsheep-skills add ab-experiment-cleanup
+```
+
+List all available skills:
+
+```bash
+npx tsheep-skills list
+```
+
+### Method 2: Claude Code CLI
+
+Install using the Claude Code CLI:
 
 ```bash
 claude skill install https://github.com/luo29/tsheep-skills.git/ab-experiment-cleanup
 ```
 
-### Method 2: Manual Install
+### Method 3: Manual Install
 
 1. Clone this repository:
 ```bash
