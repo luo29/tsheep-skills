@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "skills": [
+    {
+      "name": "ab-experiment-cleanup",
+      "displayName": "A/B Experiment Cleanup",
+      "description": "清理已推全的 A/B 实验代码，生成影响面分析和回测报告",
+      "description_en": "Clean up fully rolled-out A/B experiment code, generate impact analysis and regression test reports",
+      "path": "ab-experiment-cleanup",
+      "version": "1.0.0",
+      "author": "tsheep",
+      "tags": ["experiment", "cleanup", "ab-testing", "code-quality"],
+      "languages": ["zh-CN", "en"],
+      "installUrl": "https://github.com/luo29/tsheep-skills.git/ab-experiment-cleanup"
+    }
+  ]
+}
